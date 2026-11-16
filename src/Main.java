@@ -33,6 +33,7 @@ public class Main {
                     break;
                 case 5:
                     scan.close();
+                    System.out.println("System closed");
                     System.exit(0);
                 default:
                     System.out.println("Invalid option");

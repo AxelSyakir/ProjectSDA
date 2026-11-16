@@ -2,11 +2,16 @@ public class Mahasiswa {
 
 
     int NIM;
+
+
+
     String nama;
     String programStudi;
     int semester;
     double IPK;
-
+    public String getNama() {
+        return nama;
+    }
 
 
     public Mahasiswa(int NIM, String nama, String programStudi, int semester, double IPK) {
